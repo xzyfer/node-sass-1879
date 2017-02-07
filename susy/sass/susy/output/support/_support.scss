@@ -1,0 +1,10 @@
+@function susy-support() {
+  @if false {
+    @each $a in (1 2 3) {
+      @each $b in (1 2 3) {
+        $c: foo(bar("#{foo}-exists"));
+      }
+    }
+  }
+  @return true;
+}
